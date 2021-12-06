@@ -2,7 +2,11 @@ import React from 'react';
 import { Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 import estiloProdutos from './estiloProdutos';
 
-function Produtos() {
+function Produtos({navigation}) { 
+
+    const voltarInicial = () => {
+        navigation.navigate('Inicial')
+    }
 
     return(
 
@@ -24,7 +28,7 @@ function Produtos() {
 
              <Text style={estiloProdutos.texto}>- Porta álcool em gel</Text>
                 <TouchableOpacity style={estiloProdutos.botaoContainer}>
-                   <Text style={estiloProdutos.botaoTexto}>Voltar</Text> 
+                   <Text style={estiloProdutos.botaoTexto} onPress={voltarInicial}>Voltar</Text> 
                 </TouchableOpacity>  
             </View>
         </View>
