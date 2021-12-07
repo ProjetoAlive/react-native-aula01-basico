@@ -20,10 +20,6 @@ function Sobre() {
              de nosso trabalho.</Text>
 
              <Text style={estiloSobre.texto}>Qualquer dúvida, estamos à disposição</Text>
-
-                <TouchableOpacity style={estiloSobre.botaoContainer}>
-                   <Text style={estiloSobre.botaoTexto}>Voltar</Text> 
-                </TouchableOpacity>  
             </View>
         </View>
     )

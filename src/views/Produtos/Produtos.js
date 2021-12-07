@@ -27,9 +27,6 @@ function Produtos({navigation}) {
              <Text style={estiloProdutos.texto}>- Ecopads</Text>
 
              <Text style={estiloProdutos.texto}>- Porta álcool em gel</Text>
-                <TouchableOpacity style={estiloProdutos.botaoContainer}>
-                   <Text style={estiloProdutos.botaoTexto} onPress={voltarInicial}>Voltar</Text> 
-                </TouchableOpacity>  
             </View>
         </View>
     )

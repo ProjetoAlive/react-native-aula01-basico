@@ -11,7 +11,7 @@ const estiloSobre = StyleSheet.create({
     borda: {
         backgroundColor: '#dda0dd',
         width: '80%',
-        height: '50%',
+        height: '60%',
         borderRadius: 10,
     },
 
